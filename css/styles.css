@@ -44,7 +44,7 @@
   --bs-dark: #212529;
   /* --bs-primary-rgb: 29, 128, 159; */ /* this is the og one but im replacing with chicago maroon hrere */
   --bs-primary-rgb: 134, 31, 65;
-  --bs-secondary-rgb: 236, 184, 7;
+  --bs-secondary-rgb: 117, 120, 123; /* 236, 184, 7; old one*/
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 236, 184, 7;
@@ -11096,7 +11096,7 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(134, 31, 65, 0.9); /*29, 128, 159, 0.9); old one*/
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
