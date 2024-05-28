@@ -42,7 +42,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 29, 128, 159;
+  /* --bs-primary-rgb: 29, 128, 159; */ /* this is the og one but im replacing with chicago maroon hrere */
+  --bs-primary-rgb: 134, 31, 65;
   --bs-secondary-rgb: 236, 184, 7;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -2844,11 +2845,14 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
+  /* commented out stuff is og, below it is vtechified */
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1D809F;
-  --bs-btn-border-color: #1D809F;
+  /* --bs-btn-bg: #1D809F; */
+  --bs-btn-bg: #861F41;
+  /* --bs-btn-border-color: #1D809F; */
+  --bs-btn-border-color: #861F41;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #196d87;
+  --bs-btn-hover-bg: #751e3b; /* #196d87;*/
   --bs-btn-hover-border-color: #17667f;
   --bs-btn-focus-shadow-rgb: 63, 147, 173;
   --bs-btn-active-color: #fff;
