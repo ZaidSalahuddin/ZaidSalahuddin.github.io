@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #861F41; /* 1D809F; */
+  --bs-primary: #861F41; /* 1D809F; */ /* this is now chicago maroon */
   --bs-secondary: #ecb807;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -10972,7 +10972,7 @@ html {
 .callout {
   padding: 15rem 0;
   background: linear-gradient(180deg, rgba(134, 31, 65, 0.99) 0%, rgba(248, 249, 250, 0.1) 20%),
-              linear-gradient(0deg, rgba(255, 255, 255, 0.99) 0%, rgba(255, 255, 255, 0.1) 40%),
+              linear-gradient(0deg, rgba(255, 255, 255, 0.99) 0%, rgba(255, 255, 255, 0.1) 70%),
               url("../assets/img/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -11001,7 +11001,7 @@ footer.footer .social-link {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #751e3b; /* #196d87;*/
+  background-color: #6c757d; /* #196d87;*/
   text-decoration: none;
 }
 
@@ -11115,6 +11115,17 @@ footer.footer .social-link:hover {
 .service-icon {
   background-color: #fff;
   color: #861F41; /* 1D809F;  old color*/
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.service-icon-b {
+  background-color: #861F41;
+  color: #fff; /* 1D809F;  old color*/
   height: 7rem;
   width: 7rem;
   display: block;
