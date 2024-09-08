@@ -10973,7 +10973,7 @@ html {
   padding: 15rem 0;
   background: linear-gradient(180deg, rgba(134, 31, 65, 0.99) 0%, rgba(248, 249, 250, 0.1) 20%),
               linear-gradient(0deg, rgba(255, 255, 255, 0.99) 0%, rgba(255, 255, 255, 0.1) 70%),
-              url("..img/bg-callout.jpg");
+              url("../img/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
